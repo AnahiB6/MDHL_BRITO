@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ECECEC;
+}
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 120px;
+    background-color:#FFB819;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img[alt="logo del sitio"] {
+margin-left: 25px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 15px;
+}
+
+h1 {
+font-weight: 600;
+margin-right: 80px;
+font-size: 295%;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding-right:10px ;
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+color: white;
+}
+h3{
+    background-color: #002654;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    padding-top: 5px;
+}
+.text {
+    margin-left: 680px;
+}
+.sangria {
+    text-indent: 4%;
+}
+.cursiva {
+    font-style: italic;
+}
+.titulo {
+    display: inline block;
+    justify-content: center;
+    padding-top: 5px;
+}
+ul > li {
+list-style-type: circle;
+list-style-position:inside;
+text-justify: inter-word;
+}
+ol > .li1 {
+list-style-position: inside;
+padding-top: 20px;
+}
+#negrita ::marker {
+    font-weight: 600;
+}
+#lista {
+list-style-type: lower-alpha;
+list-style-position: inside;
+margin-bottom: 20px;
+}
+
+table {
+color: black;
+height: 50vh;
+width: 40rem;
+border-collapse: collapse;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 3px solid;
+    text-align: center;
+    border-color: black;
+}
+
+th {
+padding-top: 7px;
+padding-bottom: 7px;
+background-color: #4882c9fe;
+color:rgba(255, 255, 255, 0.916);
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.space {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-right: 202px;
+}
+.g {
+    font-size: 160%;
+}
+#sep {
+    padding-top: 20px;
+}
+.r {
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.p {
+    margin-bottom: 0px;
+}
+.centrar {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.formu {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+}
+h2 {
+font-size:230%;
+}
+.rf {
+margin-bottom: 15px;
+margin-left: 70px;
+}
+
+#mapas {
+
+}
+#bckr {
+min-width:100vh;
+background-color: rgb(244,244,174, 0.52);
+background-size: cover;
+margin: 45px 45px;
+border-radius: 15px;
+box-shadow: 1px 0px 10px 0px;
+}
+#bckimg {
+background-image: linear-gradient(rgba(3, 4, 5, 0.58), rgba(3, 4, 5, 0.58)), url(./form/imagen.jpg);
+}
+
+input[type="submit"] {
+padding-bottom: 10px;
+width: 100px;
+cursor: pointer;
+font-size: 13px;
+margin-bottom: 15px;
+border-radius: 5px;
+background:#fbcd6a;
+color: black;
+text-transform: uppercase;
+border:1px solid aliceblue;
+}
+input[type="submit"]:hover {
+background-color:#4882c9fe;
+}
+#parents, #date {
+display: flex;
+}
+input[type="text"] {
+background: none;
+border:none;
+outline: 0px;
+border-bottom: 1px solid black;
+}
+#address{
+width: 41%;
+}
+#parents{
+width: 35%;
+}
+
+@media (max-width:926) {
+header {
+display: flex;
+height: 120px;
+flex-direction: column;
+align-items: stretch;
+}
+h1 {
+font-size: 17px;
+margin-left: 10px;
+}
+img[alt="logo del sitio"] {
+width: 60px;
+margin: 0px;
+}
+nav a {
+padding: 1px;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 9px;
+display: flex;
+}
+h3 {
+height: 20px;
+font-size: 9px;
+justify-content: center;
+display: flex;
+width: 412px;
+}
+.img {
+width: 200px;
+height: 500px;
+}
+.text {
+font-size: 6px;
+margin: 0px;
+display: flex;
+margin-left: 105px;
+justify-content: center;
+}
+
+}
+
