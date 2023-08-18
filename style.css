@@ -1,20 +1,20 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ECECEC;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #ECECEC;
 }
 * {
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+margin: 0px;
+border: 0px;
+padding: 0px;
+box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    height: 120px;
-    background-color:#FFB819;
-    justify-content: space-between;
-    align-items: center;
+display: flex;
+height: 120px;
+background-color:#FFB819;
+justify-content: space-between;
+align-items: center;
 }
 
 img[alt="logo del sitio"] {
@@ -22,11 +22,11 @@ margin-left: 25px;
 }
 
 .img {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 35px;
-    height: 15px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 35px;
+height: 15px;
 }
 
 h1 {
@@ -35,40 +35,40 @@ margin-right: 80px;
 font-size: 295%;
 }
 nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: 400;
-    padding-right:10px ;
-    display: inline-flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    padding: 10px 20px;
+text-decoration: none;
+color: black;
+font-weight: 400;
+padding-right:10px ;
+display: inline-flex;
+justify-content: space-between;
+border-radius: 10px;
+padding: 10px 20px;
 }
 
 nav a:hover {
 color: white;
 }
 h3{
-    background-color: #002654;
-    color: white;
-    display: flex;
-    justify-content: center;
-    height: 35px;
-    padding-top: 5px;
+background-color: #002654;
+color: white;
+display: flex;
+justify-content: center;
+height: 35px;
+padding-top: 5px;
 }
 .text {
-    margin-left: 680px;
+margin-left: 680px;
 }
 .sangria {
-    text-indent: 4%;
+text-indent: 4%;
 }
 .cursiva {
-    font-style: italic;
+font-style: italic;
 }
 .titulo {
-    display: inline block;
-    justify-content: center;
-    padding-top: 5px;
+display: inline block;
+justify-content: center;
+padding-top: 5px;
 }
 ul > li {
 list-style-type: circle;
@@ -80,7 +80,7 @@ list-style-position: inside;
 padding-top: 20px;
 }
 #negrita ::marker {
-    font-weight: 600;
+font-weight: 600;
 }
 #lista {
 list-style-type: lower-alpha;
@@ -98,9 +98,9 @@ margin-bottom: 20px;
 }
 
 table, th, td {
-    border: 3px solid;
-    text-align: center;
-    border-color: black;
+border: 3px solid;
+text-align: center;
+border-color: black;
 }
 
 th {
@@ -111,40 +111,40 @@ color:rgba(255, 255, 255, 0.916);
 }
 
 p {
-    margin-top: 5px;
-    margin-bottom: 15px;
+margin-top: 5px;
+margin-bottom: 15px;
 }
 
 .space {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-right: 202px;
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+padding-right: 202px;
 }
 .g {
-    font-size: 160%;
+font-size: 160%;
 }
 #sep {
-    padding-top: 20px;
+padding-top: 20px;
 }
 .r {
-    margin-bottom: 40px;
-    margin-top: 0px;
+margin-bottom: 40px;
+margin-top: 0px;
 }
 .p {
-    margin-bottom: 0px;
+margin-bottom: 0px;
 }
 .centrar {
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    align-content: center;
+display: flex;
+flex-direction:column;
+flex-wrap: wrap;
+align-content: center;
 }
 
 .formu {
-    margin-left: 150px;
-    margin-right: 150px;
-    padding: 15px;
+margin-left: 150px;
+margin-right: 150px;
+padding: 15px;
 }
 h2 {
 font-size:230%;
@@ -158,7 +158,7 @@ margin-left: 70px;
 
 }
 #bckr {
-min-width:100vh;
+width:100vh;
 background-color: rgb(244,244,174, 0.52);
 background-size: cover;
 margin: 45px 45px;
@@ -187,7 +187,7 @@ background-color:#4882c9fe;
 #parents, #date {
 display: flex;
 }
-input[type="text"] {
+input[type="text"], input[type="date"] {
 background: none;
 border:none;
 outline: 0px;
@@ -200,46 +200,162 @@ width: 41%;
 width: 35%;
 }
 
-@media (max-width:926) {
+@media (max-width:320px) {
+* {
+margin: 0px;
+border: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
 header {
 display: flex;
 height: 120px;
-flex-direction: column;
-align-items: stretch;
+justify-content: space-between;
+align-items: center;
+}
 }
 h1 {
-font-size: 17px;
-margin-left: 10px;
+font-size: 20px;
+margin-left: 15px;
 }
 img[alt="logo del sitio"] {
 width: 60px;
-margin: 0px;
+align-items: center;
 }
 nav a {
 padding: 1px;
-margin-left: 10px;
+margin-left: 5px;
 margin-right: 10px;
 font-size: 9px;
 display: flex;
+flex-direction: column;
+align-items: baseline;
 }
 h3 {
 height: 20px;
 font-size: 9px;
 justify-content: center;
 display: flex;
-width: 412px;
+min-width: 315px;
 }
 .img {
-width: 200px;
-height: 500px;
+min-width:150px;
+display: flex;
+justify-content: stretch;
 }
 .text {
-font-size: 6px;
-margin: 0px;
+font-size: 7px;
 display: flex;
-margin-left: 105px;
-justify-content: center;
+margin-left: 160px;
+flex-direction:column;
 }
+table {
+height: 15px;
+width: 5px;
+}
+th {
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 2px;
+padding-right: 2px;
+}
+p {
+margin-top: 2px;
+margin-bottom: 2px;
+}
+.g {
+font-size: 140%;
+text-align: start;
+}
+#mapa1 {
+display:flex;
+flex-direction: column;
+position: relative;
+top:5px;
+width: 90px;
+height: 10px;
+right: 140px;
+gap: 3px;
 
 }
+#mapa2 {
+position:relative;
+display: flex;
+flex-direction:column;
+bottom: 5px;
+gap: 3px;
+width: 90px;
+height: 4px;
+}
 
+.r {
+margin-bottom: 10px;
+}
+#sep{
+    padding-top: 3px;
+}
+table, th, td {
+border: 1px solid;
+text-align: center;
+border-color: black;
+margin:1px;
+}
+td{
+padding-bottom: 0px;
+padding-top: 0px;
+}
+ol > .li1 {
+padding-top: 9px;
+}
+---------------------------
+.formu,.ab, .cd, .ef, .gh, .ij, .kl, .mn  {
+position: relative;
+right: 140px ;
+font-size: 9px;
+font-size: 7px;
+display: flex;
+flex-direction:column;
+align-items: stretch;
+}
+.cd {
+display: inline;
+}
+h2 {
+font-size:100%;
+}
+.rf {
+margin-bottom: 15px;
+margin-left: 70px;
+}
+#bckr {
+background-color: rgb(244,244,174, 0.52);
+margin: 5px 5px;
+border-radius: 15px;
+box-shadow: 1px 0px 10px 0px;
+font-size: 9px;
+width: 300px;
+height: 1500px;
+}
+#bckimg {
+background-image:none
+}
+
+    
+    input[type="submit"] {
+    padding-bottom: 5px;
+    width: 60px;
+    cursor: pointer;
+    font-size: 9px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background:#fbcd6a;
+    color: black;
+    text-transform: uppercase;
+    border:1px solid aliceblue;
+    }
+    #address{
+    width: 21%;
+    }
+    #parents{
+    width: 25%;
+    }
